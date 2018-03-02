@@ -1,0 +1,32 @@
+AllCops:
+  Exclude:
+  - 'db/**/*'
+  - 'tmp/**/*'
+  - 'vendor/**/*'
+  - 'bin/**/*'
+  - 'log/**/*'
+  - 'spec/spec_helper.rb'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+    - 'config/environments/*.rb'
+    - 'config/initializers/*.rb'
+
+Lint/Void:
+  Enabled: false
+
+Lint/RescueException:
+  Enabled: false
+
+Lint/ShadowedException:
+  Enabled: false
