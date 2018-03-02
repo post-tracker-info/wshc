@@ -59,3 +59,4 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'haml'
 gem "haml-rails", "~> 1.0"
+gem 'rubocop', require: false
